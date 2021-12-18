@@ -12,7 +12,7 @@ With the two macros `LAYOUT_TOP_DOWN()` and `LAYOUT_LEFT_RIGHT()` it is possible
 
 ```plantuml
 @startuml LAYOUT_TOP_DOWN Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 /' Not needed because this is the default '/
 LAYOUT_TOP_DOWN()
@@ -34,7 +34,7 @@ Rel(web_app, twitter, "Gets tweets from", "HTTPS")
 
 ```plantuml
 @startuml LAYOUT_LEFT_RIGHT Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 LAYOUT_LEFT_RIGHT()
 
@@ -55,7 +55,7 @@ Rel(web_app, twitter, "Gets tweets from", "HTTPS")
 
 ```plantuml
 @startuml LAYOUT_LANDSCAPE Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 LAYOUT_LANDSCAPE()
 
@@ -96,7 +96,7 @@ This can be enabled with `LAYOUT_WITH_LEGEND()`.
 
 ```plantuml
 @startuml LAYOUT_WITH_LEGEND Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 LAYOUT_WITH_LEGEND()
 
@@ -123,7 +123,7 @@ The calculated legend has following differences:
 
 ```plantuml
 @startuml SHOW_LEGEND Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 Person(admin, "Administrator")
 System_Boundary(c1, 'Sample') {
@@ -146,7 +146,7 @@ SHOW_LEGEND()
 
 ```plantuml
 @startuml Layout With Whitespace Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 Person(a, "Person A")
 Container(b, "Container B", "techn")
@@ -172,7 +172,7 @@ Therefore a floating legend can be added via SHOW_FLOATING_LEGEND(), positioned 
 
 ```plantuml
 @startuml Compact Legend Layout Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 Person(a, "Person A")
 Container(b, "Container B", "techn")
@@ -208,7 +208,7 @@ With `LAYOUT_AS_SKETCH()` you can make a difference.
 
 ```plantuml
 @startuml LAYOUT_AS_SKETCH Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 LAYOUT_AS_SKETCH()
 
@@ -233,7 +233,7 @@ This can be enabled with `HIDE_STEREOTYPE()`.
 
 ```plantuml
 @startuml HIDE_STEREOTYPE Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 HIDE_STEREOTYPE()
 
@@ -265,7 +265,7 @@ With the macros `HIDE_PERSON_SPRITE()`, `SHOW_PERSON_SPRITE()` and `SHOW_PERSON_
 
 ```plantuml
 @startuml predefined sprites Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 Person(userA, "User A", "with predefined sprite person", "person")
 Person(userB, "User B", "with predefined sprite person2", "person2")
@@ -279,7 +279,7 @@ Person(userB, "User B", "with predefined sprite person2", "person2")
 
 ```plantuml
 @startuml HIDE_PERSON_SPRITE Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 HIDE_PERSON_SPRITE()
 
@@ -300,7 +300,7 @@ Rel(web_app, twitter, "Gets tweets from", "HTTPS")
 
 ```plantuml
 @startuml SHOW_PERSON_SPRITE Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 /' Not needed because this is the default with sprite "person" '/
 SHOW_PERSON_SPRITE()
@@ -322,7 +322,7 @@ Rel(web_app, twitter, "Gets tweets from", "HTTPS")
 
 ```plantuml
 @startuml SHOW_PERSON_SPRITE(sprite) Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 !define osaPuml https://raw.githubusercontent.com/Crashedmind/PlantUML-opensecurityarchitecture2-icons/master
 !include osaPuml/Common.puml
 !include osaPuml/User/all.puml
@@ -346,7 +346,7 @@ Rel(web_app, twitter, "Gets tweets from", "HTTPS")
 
 ```plantuml
 @startuml SHOW_PERSON_PORTRAIT() Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 SHOW_PERSON_PORTRAIT()
 
@@ -372,7 +372,7 @@ Rel(web_app, twitter, "Gets tweets from", "HTTPS")
 
 ```plantuml
 @startuml SHOW_PERSON_OUTLINE() Sample
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.fastgit.org/udegg/C4-PlantUML/master/C4_Container.puml
 
 SHOW_PERSON_OUTLINE()
 
